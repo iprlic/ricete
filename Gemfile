@@ -36,10 +36,24 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '>= 4.7.1'
+gem 'granite', '>= 0.9.3'
+gem 'slim-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-core', '>= 3.9'
+  gem 'rspec-mocks', '>= 3.9'
+  gem 'rspec-expectations', '>= 3.9'
+  gem 'rspec-rails', '>= 3.9'
+  gem 'factory_bot', '>= 5.1.1'
+  gem 'pry-byebug', '~> 3.6'
+  gem 'pry-doc', require: false
+  gem 'pry-rails'
+  gem 'pry-rescue'
+  gem 'pry-stack_explorer'
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec', require: false
 end
 
 group :development do
