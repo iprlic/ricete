@@ -46,6 +46,7 @@ group :development, :test do
   gem 'rspec-mocks', '>= 3.9'
   gem 'rspec-expectations', '>= 3.9'
   gem 'rspec-rails', '>= 3.9'
+  gem 'shoulda-matchers', '~> 4.1.0'
   gem 'factory_bot', '>= 5.1.1'
   gem 'pry-byebug', '~> 3.6'
   gem 'pry-doc', require: false
